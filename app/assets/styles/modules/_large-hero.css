@@ -1,0 +1,30 @@
+.large-hero {
+  position: relative;
+
+  /*
+      here we position text over image rather than css as background image
+      both are viable
+  */
+  &__text-content {
+    position: absolute; /* is relative to the parent, fixed is relative to viewport */
+    top: 50%; /* put text in top left of image, then move down 50% */
+    transform: translateY(-50%);
+    left: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  &__title {
+    font-weight: 300;
+    color: #2f5572;
+    font-size: 4.8rem;
+    margin: 0;
+  }
+
+  &__subtitle {
+    font-weight: 300;
+    color: #2f5572;
+    font-size: 2.9rem;
+    margin: 0;
+  }
+}
