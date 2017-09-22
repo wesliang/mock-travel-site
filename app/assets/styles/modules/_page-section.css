@@ -1,0 +1,16 @@
+/*
+ *  need this class to have a spacing between content and above, we made a new file because
+ *  it's a new and recurring design pattern we see on the page
+ */
+.page-section {
+  padding: 1.2rem 0;
+
+  @mixin atMedium {
+    padding: 4.5rem 0;
+  }
+
+  &--blue {
+    background-color: $mainBlue;
+    color: #FFF;
+  }
+}

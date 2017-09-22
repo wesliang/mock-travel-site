@@ -4,10 +4,14 @@
  * 3) @import is native css but we combine it with
  *      gulp/postcss to reduce time
  */
- 
+
 @import "normalize.css";
 @import "base/_variables";
 @import "base/_mixins";
 @import "base/_global";
 @import "modules/_large-hero";
-@import "modules/_btn"
+@import "modules/_btn";
+@import "modules/_wrapper";
+@import "modules/_page-section";
+@import "modules/_headline";
+@import "modules/_rows";
